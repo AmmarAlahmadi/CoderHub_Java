@@ -1,0 +1,18 @@
+public static String addStrNums(String num1, String num2) {
+    int res;
+    int i;
+    int[] arr;
+    String fres="";
+    
+	if(num1.matches("[0-9]+") && num2.matches("[0-9]+")) {
+		int stint1= new Integer(Integer.parseInt(num1));
+		int stint2= new Integer(Integer.parseInt(num2));
+		res= stint2 +stint1;
+		fres += res;
+		
+		return fres;
+    }else {
+    	return "-1";
+    }
+
+}

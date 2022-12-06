@@ -1,0 +1,13 @@
+public static int countWords(String txt) {
+
+    int coun = txt.split("\\w+").length;
+    
+    if(coun ==0) {
+    
+    	coun=1;
+    	return coun;
+    }else {
+    return coun;
+    }
+
+}

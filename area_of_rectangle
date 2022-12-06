@@ -1,0 +1,7 @@
+public static int area_of_rectangle(int width, int height) {
+
+	int result =width * height;
+  
+		return result;
+	   
+}

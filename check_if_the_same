@@ -1,0 +1,9 @@
+public static String is_same(String name1, String name2) {
+    if(name1 == name2){
+        return "Identical";
+    }
+    else{
+        return "Not Identical";
+    }
+
+}

@@ -1,0 +1,9 @@
+public static boolean logical_and(boolean a, boolean b) {
+   if(a && b == true) {
+	   return true;
+   }else {
+	   return false;
+   }
+        
+
+}

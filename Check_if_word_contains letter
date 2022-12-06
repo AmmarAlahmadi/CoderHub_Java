@@ -1,0 +1,8 @@
+public static boolean stringContains(String firstName, String contains) {
+ if (firstName.contains(contains)){
+	 return true;
+ }else {
+	 return false;
+ }
+        
+}

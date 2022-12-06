@@ -1,0 +1,32 @@
+public static String oddsVsEvens(int num) {
+    	int sumodd=0, sumeven=0, dig, resodd,reseven,digodd,digeven;
+		
+		while(num > 0) {
+		dig = num % 10;
+		num = num / 10;
+		if(dig % 2 == 0) {
+			digeven= dig;
+			sumeven= sumeven + digeven;
+			dig =0;
+			
+		}else if( dig % 2 !=0) {
+			digodd = dig;
+			sumodd = sumodd + dig;
+			dig =0;
+		}
+		
+		}
+		reseven = sumeven;
+		resodd = sumodd;
+		if(reseven > resodd) {
+			return "even";
+			
+			
+		}else if(resodd > reseven) {
+			return "odd";
+		
+		}else {
+			return "equal";
+		}
+
+}

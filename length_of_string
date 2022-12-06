@@ -1,0 +1,4 @@
+public static int name_char_length(String name) {
+    int len = name.length();
+    return len;
+}

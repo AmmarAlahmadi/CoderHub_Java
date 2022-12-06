@@ -1,0 +1,7 @@
+public static int convert_to_seconds(int hours) {
+    
+hours = hours* 3600;
+    
+    	
+    	return hours;
+}

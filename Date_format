@@ -1,0 +1,20 @@
+	public static String date_format(String date) {
+		String rev=date;
+		String rev1;
+		String nor = date;
+		String newf = "";
+	 if(date.length() == 8) {
+		 rev1 = rev.substring(5,7)+nor.substring(7,8)+nor.substring(4,5)+nor.substring(0,4);
+		  newf = date.substring(0,4)+"-"+date.substring(5,6)+"-"+date.substring(7,8);
+		  date = nor+" | "+newf+" | "+rev1;
+		    return date;
+	 }else{
+		 rev1 = rev.substring(5,7)+nor.substring(7,10)+nor.substring(4,5)+nor.substring(0,4);
+		  newf = date.substring(0,4)+"-"+date.substring(5,7)+"-"+date.substring(8,10);
+		    date = nor+" | "+newf+" | "+rev1;
+		    return date;
+	 }
+	    
+	    
+	 
+	}
